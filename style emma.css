@@ -1,0 +1,206 @@
+h1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(250, 253, 223);
+    border-style: double;
+}
+h2:hover {
+    color: rgb(255, 255, 255);
+    transition-property: background-color, color border-radius;
+    transition-duration: 3s;
+    background-color: rgba(235, 150, 23, 0.651);
+    display: block;
+}
+h2 {
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    border-style: double;
+    width: 200px;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    display: flex;
+}
+h2:hover {
+    color: rgb(255, 255, 255);
+    transition-property: background-color, color border-radius;
+    transition-duration: 3s;
+    background-color: rgba(235, 150, 23, 0.651);
+    display: block;
+}
+#contact{
+    display: flex;
+    justify-content: center;
+}
+#contact a {
+    background-image: black;
+    color: white;
+    transition-property: background-color opacity;
+    transition-duration: 3s;
+    margin: 10px;
+    border-radius: 50%;
+}
+#contact a:hover {
+    background-color: rgb(218, 150, 24);
+    opacity: 70%;
+}
+#custom-img{
+    display: block;
+    width: 170px;
+    text-align: center;
+    margin: auto;
+    border-radius: 50%;
+    border-style: solid;
+    margin-bottom: 20px;
+}
+#first{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: -40px;
+}
+.school {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    text-align: left;
+    height: 230px;
+    width: 350px;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: white;
+    border-style: solid;
+    border-radius: 30%;
+    border-color: rgb(187, 138, 46);
+    background-color: rgba(255, 255, 255, 0.959);
+    transition-property: background-color, color font-size border-radius opacity;
+    transition-duration: 3s;
+    opacity: 50%;
+}
+.school:hover {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    border-radius: 0%;
+    opacity: 100%;
+}
+#second {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: -40px;
+}
+.work {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    text-align: left;
+    height: 450px;
+    width: 400px;
+    background: white;
+    border-style: solid;
+    background-color: rgba(255, 255, 255, 0.959);
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 50px;
+    border-radius: 30%;
+    opacity: 50%;
+    border-color: rgb(187, 138, 46);
+    transition-property: background-color, color font-size border-radius;
+    transition-duration: 3s;
+}
+.work:hover {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    border-radius: 0%;
+    opacity: 100%;
+}
+.work2 {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    text-align: left;
+    height: 300px;
+    width: 400px;
+    background: white;
+    border-style: solid;
+    background-color: rgba(255, 255, 255, 0.959);
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 50px;
+    border-radius: 30%;
+    opacity: 50%;
+    border-color: rgb(187, 138, 46);
+    transition-property: background-color, color font-size border-radius;
+    transition-duration: 3s;
+}
+.work2:hover {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    border-radius: 0%;
+    opacity: 100%;
+}
+#third{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: -40px;
+}
+#hobbies{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    text-align: left;
+    height: 230px;
+    width: 350px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: white;
+    border-style: solid;
+    border-radius: 30%;
+    border-color: rgb(187, 138, 46);
+    background-color: rgba(255, 255, 255, 0.959);
+    transition-property: background-color, color font-size border-radius opacity;
+    transition-duration: 3s;
+    opacity: 50%;
+}
+#hobbies:hover {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    border-radius: 0%;
+    opacity: 100%;
+}
+#fourth{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: -40px;
+}
+#skills {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    text-align: left;
+    height: 230px;
+    width: 350px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: white;
+    border-style: solid;
+    border-radius: 30%;
+    border-color: rgb(187, 138, 46);
+    background-color: rgba(255, 255, 255, 0.959);
+    transition-property: background-color, color font-size border-radius opacity;
+    transition-duration: 3s;
+    opacity: 50%;
+}
+#skills:hover {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    border-radius: 0%;
+    opacity: 100%;
+}
